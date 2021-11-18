@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://chetkiy777.github.io/dream-team",
+  "homepage": "https://chetkiy777.github.io/ice-cream-team-project",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /dream-team/"
+    "build": "parcel build src/*.html --public-url /ice-cream-team-project/"
   },
   "repository": {
     "type": "git",
