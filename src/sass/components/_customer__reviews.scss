@@ -1,0 +1,121 @@
+.customer_reviews {
+	padding-top: 40px;
+	padding-bottom: 124px;
+	@media screen and (max-width: 768px) {
+		padding-top: 60px;		
+	}
+}
+.slider {
+	min-width: 280px;
+	padding-left: 20px;
+	padding-right: 20px;
+	@media screen and (min-width: 480px) {
+		max-width: 440px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	@media screen and (min-width: 768px) {
+		max-width: 620px;
+	}
+	@media screen and (min-width: 1280px) {
+		max-width: 928px;
+	}
+}
+.reviews-user {	
+	border-radius: 50%;
+	object-fit: contain;
+	margin-bottom: 16px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.reviews-wrapper {
+	width: 100%;
+	padding-top: 44px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	margin-bottom: 30px;
+	background-color: #fafafa;
+}
+.reviews-gradient {
+	background: repeating-linear-gradient(
+		to bottom,
+		#fafafa 0px,
+		#fafafa 29px,
+		#e1e1e1 29px,
+		#e1e1e1 30px
+	);
+	position: relative;
+	@media screen and (min-width: 1280px) {
+		background: repeating-linear-gradient(
+			to bottom,
+			#fafafa 0px,
+			#fafafa 28px,
+			#e1e1e1 28px,
+			#e1e1e1 29px
+		);
+	}	
+}
+.reviews-text {
+	position: relative;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 2.55;
+	text-align: center;
+	padding-left: 8px;
+	padding-right: 16px;
+	color: var(--second-text-color);
+	@media screen and (min-width: 768px) {
+		font-size: 14px;
+		line-height: 2.16;
+	}
+	@media screen and (min-width: 1280px) {
+		font-size: 16px;
+		line-height: 1.86;
+		padding-left: 28px;
+		padding-right: 36px;
+	}
+}
+.reviews-decorhook {
+	background: transparent;
+	position: absolute;
+	top: -12px;
+	left: 4px;
+	@media screen and (min-width: 768px) {
+		top: -12px;
+		left: -5px;
+	}
+}
+.reviews-decordots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+.reviews-dots {
+	display: block;
+	height: 4px;
+	width: 4px;
+	border-radius: 50%;
+	background-color: #c7133e;
+	&:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+.reviews-location {
+	display: block;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.86;
+	text-align: center;
+	color: var(--second-text-color);
+	padding-bottom: 50px;
+}
+.swiper-pagination-bullet-active {
+	background-image: url(../images/customer__reviews/bullet-active.svg);
+	background-size: cover;
+	width: 13px;
+	height: 12px;
+	border-radius: 0;
+	background-color: transparent;
+}

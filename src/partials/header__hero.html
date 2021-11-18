@@ -1,0 +1,311 @@
+<header class="header-hero">
+	<div class="container">
+	<div class="header-hero__container">
+		<nav class="header-hero__nav">
+			<a href="./index.html" class="logo animate__animated animate__rollIn">
+				<picture>
+					<source
+						srcset="
+							./images/header__hero/logo.png    1x,
+							./images/header__hero/logo_2x.png 2x
+						"
+					/>
+					<img src="./images/header__hero/logo.png" alt="company logo" />
+				</picture>
+			</a>
+			<ul class="header-hero__navigation-list">
+				<li class="header-hero__navigation-item">
+					<a href="./index.html" class="header-hero__navigation-link header-hero__navigation-link--current link"
+						>Home</a
+					>
+				</li>
+				<li class="header-hero__navigation-item">
+					<a href="#customer__reviews" class="header-hero__navigation-link link"
+						>About us</a
+					>
+				</li>
+				<li class="header-hero__navigation-item">
+					<a href="#about" class="header-hero__navigation-link link"
+						>How it’s made?</a
+					>
+				</li>
+				<li class="header-hero__navigation-item">
+					<a href="#products" class="header-hero__navigation-link link"
+						>Our products</a
+					>
+				</li>
+				<li class="header-hero__navigation-item">
+					<a href="#contacts" class="header-hero__navigation-link link"
+						>Contact</a
+					>
+				</li>
+			</ul>
+			<button
+				class="header-hero__burger js-open-menu"
+				aria-expanded="false"
+				aria-controls="mobile-menu"
+				type="button"
+			>
+				<svg class="header-hero__icon-menu" width="20" height="12">
+					<use href="./images/header__hero/symbol-defs.svg#icon-burger"></use>
+				</svg>
+			</button>
+			<button
+				type="button"
+				class="
+					header-hero__button
+					animate__animated animate__heartBeat animate__infinite animate__slower
+				"
+				data-modal-open 
+			>
+				Buy now >
+			</button>
+		</nav>
+		<div class="header-hero__title-container">
+			<h1 class="header-hero__title">
+				<span class="header-hero__title-partial1">ice cream made with</span
+				><span class="header-hero__title-partial2">passion</span>
+			</h1>
+			<ul class="header-hero__title-buttons">
+				<li>
+					<button type="button" onclick="location.href='#products'" class="header-hero__title-btn1">
+						Products
+					</button>
+				</li>
+				<li>
+					<button type="button" onclick="location.href='#about'" class="header-hero__title-btn2">
+						How it’s made?
+					</button>
+				</li>
+			</ul>
+		</div>
+		<!-- Slider main container -->
+		<div class="swiper1 header-hero__adv-card">
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper header-hero__adv-wrap">
+			<!-- Slides -->
+			<div class="swiper-slide hero__slider-slide">
+				<div class="hero__slider-img">
+					<picture class="milk-pic">
+						<source
+							srcset="
+								./images/header__hero/milk-pic_t.png    1x,
+								./images/header__hero/milk-pic_t_2x.png 2x
+							"
+							media="(max-width: 1279px)"
+						/>
+						<source
+							srcset="
+								./images/header__hero/milk-pic_d.png    1x,
+								./images/header__hero/milk-pic_d_2x.png 2x
+							"
+							media="(min-width: 1280px)"
+						/>
+						<img src="./images/header__hero/milk-pic_d.png" alt="milk picture" />
+					</picture>
+				</div>
+				<div class="header-hero__advertisement hero__slider-text">
+					<p class="header-hero__advertisement-text">
+						This eco ice cream is made from a milk of a famous Ukrainian cows, delicious and tasty experience guaranteed
+					</p>
+					<picture class="next-slide">
+						<source
+							srcset="
+								./images/header__hero/arrow-right_t.png    1x,
+								./images/header__hero/arrow-right_t_2x.png 2x
+							"
+							media="(max-width: 1279px)"
+						/>
+						<source
+							srcset="
+								./images/header__hero/arrow-right_d.png    1x,
+								./images/header__hero/arrow-right_d_2x.png 2x
+							"
+							media="(min-width: 1280px)"
+						/>
+						<img
+							src="./images/header__hero/arrow-right_d.png"
+							alt="advertisement arrow"
+						/>
+					</picture>
+				</div>
+			</div>
+			<div class="swiper-slide hero__slider-slide">
+				<div class="hero__slider-img">
+					<picture class="ice-cream2">
+						<source
+							srcset="
+								./images/header__hero/ice-cream-d.png    1x,
+								./images/header__hero/ice-cream-d-2x.png 2x
+							"
+							media="(max-width: 1279px)"
+						/>
+						<source
+							srcset="
+								./images/header__hero/ice-cream-d.png    1x,
+								./images/header__hero/ice-cream-d-2x.png 2x
+							"
+							media="(min-width: 1280px)"
+						/>
+						<img class="slide-pic-icecream" src="./images/header__hero/ice-cream-d.png" alt="ice-cream" width="190" height="190"/>
+					</picture>
+				</div>
+				<div class="header-hero__advertisement hero__slider-text">
+					<p class="header-hero__advertisement-text">
+						Try this delicious plate of ice cream and you won't regret, yammmy yammy.
+					</p>
+					<picture class="next-slide">
+						<source
+							srcset="
+								./images/header__hero/arrow-right_t.png    1x,
+								./images/header__hero/arrow-right_t_2x.png 2x
+							"
+							media="(max-width: 1279px)"
+						/>
+						<source
+							srcset="
+								./images/header__hero/arrow-right_d.png    1x,
+								./images/header__hero/arrow-right_d_2x.png 2x
+							"
+							media="(min-width: 1280px)"
+						/>
+						<img
+							src="./images/header__hero/arrow-right_d.png"
+							alt="advertisement arrow"
+						/>
+					</picture>
+				</div>
+			</div>
+			<div class="swiper-slide hero__slider-slide">
+				<div class="hero__slider-img">
+					<picture class="ice-cream3">
+						<source
+							srcset="
+								./images/header__hero/ice-cream3-d.png    1x,
+								./images/header__hero/ice-cream3-d-2x.png 2x
+							"
+							media="(max-width: 1279px)"
+						/>
+						<source
+							srcset="
+								./images/header__hero/ice-cream3-d.png    1x,
+								./images/header__hero/ice-cream3-d-2x.png 2x
+							"
+							media="(min-width: 1280px)"
+						/>
+						<img src="./images/header__hero/ice-cream3-d.png" alt="ice-cream" width="190" height="190"/>
+					</picture>
+				</div>
+				<div class="header-hero__advertisement hero__slider-text">
+					<p class="header-hero__advertisement-text">
+						You can also buy a glass of ice cream with different taste, such as strawberry, banana, rapsberry, chocolate. Try it all!!
+					</p>
+					<picture class="next-slide">
+						<source
+							srcset="
+								./images/header__hero/arrow-right_t.png    1x,
+								./images/header__hero/arrow-right_t_2x.png 2x
+							"
+							media="(max-width: 1279px)"
+						/>
+						<source
+							srcset="
+								./images/header__hero/arrow-right_d.png    1x,
+								./images/header__hero/arrow-right_d_2x.png 2x
+							"
+							media="(min-width: 1280px)"
+						/>
+						<img
+							src="./images/header__hero/arrow-right_d.png"
+							alt="advertisement arrow"
+						/>
+					</picture>
+				</div>
+			</div>
+			</div>
+			<!-- If we need pagination -->
+			<!-- <div class="swiper-pagination"></div> -->
+		
+			<!-- If we need navigation buttons -->
+			<!-- <div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div> -->
+		</div>
+		<div class="company-abouts-1 animate__animated animate__slideInRight">
+			<div class="company-abouts-1__circle"></div>
+			<p class="company-abouts-1__num">16</p>
+			<p class="company-abouts-1__text">cafes</p>
+		</div>
+
+		<div class="company-abouts-2 animate__animated animate__slideInRight"">
+			<div class="company-abouts-2__circle"></div>
+			<p class="company-abouts-2__num">23</p>
+			<p class="company-abouts-2__text">food trucks</p>
+		</div>
+		<div class="header-hero__circle"></div>
+
+		<!-- Замена картинки мороженого на картинку из частей для анимации -->
+
+		<article class="ice-cream">
+		
+			<img class="ice7 wow animate__animated animate__bounceInDown" src="./images/header__hero/img/ice7-min.png" alt="">
+			<img class="ice6 wow animate__animated animate__bounceInDown" src="./images/header__hero/img/ice6-min.png" alt="">
+			<img class="ice5 wow animate__animated animate__bounceInDown" src="./images/header__hero/img/ice5-min.png" alt="">
+			<img class="ice4 wow animate__animated animate__bounceInDown" src="./images/header__hero/img/ice4-min.png" alt="">
+			<img class="ice3  wow animate__animated animate__bounceInDown" src="./images/header__hero/img/ice3-min.png" alt="">
+			<img class="ice2  wow animate__animated animate__bounceInDown" src="./images/header__hero/img/ice2-min.png" alt="">
+			<img class="ice1  wow animate__animated animate__bounceInDown" src="./images/header__hero/img/ice1-min.png" alt="">
+		
+		</article>
+
+
+		<picture class="ice-cream-pic animate__animated animate__slideInUp">
+			<source
+				srcset="
+					./images/header__hero/ice-cream-pic_m.png    1x,
+					./images/header__hero/ice-cream-pic_m_2x.png 2x
+				"
+				media="(max-width: 767px)"
+			/>
+			<source
+				srcset="
+					./images/header__hero/ice-cream-pic_t.png    1x,
+					./images/header__hero/ice-cream-pic_t_2x.png 2x
+				"
+				media="(max-width: 1279px)"
+			/>
+			<source
+				srcset="
+					./images/header__hero/ice-cream-pic_d.png    1x,
+					./images/header__hero/ice-cream-pic_d_2x.png 2x
+				"
+				media="(min-width: 1280px)"
+			/>
+			<img
+				src="./images/header__hero/ice-cream-pic_d.png"
+				alt="delicious ice-cream picture"
+			/>
+		</picture>
+
+		<picture class="girl-pic animate__animated animate__slideInRight">
+			<source
+				srcset="
+					./images/header__hero/girl-pic_t.png    1x,
+					./images/header__hero/girl-pic_t_2x.png 2x
+				"
+				media="(max-width: 1279px)"
+			/>
+			<source
+				srcset="
+					./images/header__hero/girl-pic_d.png    1x,
+					./images/header__hero/girl-pic_d_2x.png 2x
+				"
+				media="(min-width: 1280px)"
+			/>
+			<img
+				src="./images/header__hero/girl-pic_d.png"
+				alt="a very happy girl eating delicious ice-cream"
+			/>
+		</picture>
+	</div>
+	</div>
+</header>

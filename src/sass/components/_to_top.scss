@@ -1,0 +1,38 @@
+#toTop {
+	position: fixed;
+	display: inline-block;
+	bottom: 40px;
+	right: -60px;
+	width: 40px;
+	height: 40px;
+	z-index: 1000;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	opacity: 0;
+	visibility: hidden;
+    transition: all .3s ease-in-out;
+}
+// #toTop:hover {
+		
+// }
+
+#toTop svg {
+	position: relative;
+	top: 12px;
+	right: -1px;
+	fill: #fff;
+	transition: all .3s ease-in-out;
+}
+
+#toTop:hover svg {
+	cursor: pointer;
+	fill: #fff;
+	transition: all .3s ease-in-out;
+}
+
+#toTop.show {
+	opacity: 1;
+	visibility: visible;
+	right: calc(2%);
+}
